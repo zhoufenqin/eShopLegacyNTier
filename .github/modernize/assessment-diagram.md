@@ -58,7 +58,14 @@ flowchart TD
 
 ## Assessment Findings
 
-- **Total Issues**: 4 (0 mandatory, 4 optional, 1 potential)
-- **Total Story Points**: 15
-- **Issue Categories**: Scale (1), Database (2), Security (2)
+- **Total Issues**: 5 (0 mandatory, 6 optional, 1 potential)
+- **Total Story Points**: 21
+- **Issue Categories**: Runtime (2), Database (2), Security (2), Scale (1)
 - **Target Platforms**: Azure App Service, Azure Kubernetes Service, Azure Container Apps
+
+### Per-Project Summary
+
+| Project | Issues | Story Points | Framework | Language |
+|---------|--------|-------------|-----------|----------|
+| eShopWCFService | 4 | 15 | .NET Framework 4.6.1 | C# |
+| eShopWinForms | 2 | 6 | .NET Framework 4.7 | C# |
