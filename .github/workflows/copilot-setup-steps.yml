@@ -6,12 +6,6 @@ name: "Copilot Setup Step (Windows)"
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/copilot-setup-steps-windows.yml
-  pull_request:
-    paths:
-      - .github/workflows/copilot-setup-steps-windows.yml
 
 jobs:
   copilot-setup-steps:
