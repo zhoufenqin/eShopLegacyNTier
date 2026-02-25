@@ -1,0 +1,200 @@
+{
+  "version": "1.0.0",
+  "producer": ".NET AppCAT CLI",
+  "metadata": {
+    "analysisStartTime": "2026-02-25T06:38:05.6441946Z",
+    "analysisEndTime": "2026-02-25T06:38:06.8114064Z",
+    "privacyMode": "Protected",
+    "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2271074",
+    "targetIds": [
+      "AppService.Windows",
+      "AppService.Linux",
+      "AKS.Linux",
+      "AKS.Windows",
+      "ACA",
+      "AppServiceContainer.Linux",
+      "AppServiceContainer.Windows",
+      "AppServiceManagedInstance.Windows"
+    ],
+    "targetDisplayNames": [
+      "Azure App Service",
+      "Azure Kubernetes Service",
+      "Azure Container Apps",
+      "Azure App Service Container",
+      "Azure App Service Managed Instance"
+    ],
+    "os": [
+      "windows",
+      "linux"
+    ]
+  },
+  "summary": {
+    "totalProjects": 1,
+    "totalIssues": 2,
+    "totalIncidents": 2,
+    "totalEffort": 6,
+    "charts": {
+      "severity": {
+        "mandatory": 0,
+        "optional": 2,
+        "potential": 0,
+        "information": 0
+      },
+      "category": {
+        "Runtime": 1,
+        "Scale": 1
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "src/eShopWinForms/eShopWinForms.csproj",
+      "issues": 2,
+      "storyPoints": 6,
+      "properties": {
+        "appName": "eShopWinForms",
+        "frameworks": [
+          ".NETFramework,Version=v4.7"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0002",
+          "incidentId": "9141d3ab-cc70-4a88-b6ba-5afd752092af",
+          "location": "src/eShopWinForms/eShopWinForms.csproj",
+          "locationKind": "File",
+          "snippet": "Target framework: .NETFramework,Version=v4.7",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "information",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "information",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Scale.0001",
+          "incidentId": "aef97c11-f27c-4bd1-b796-d65cd89f1e0a",
+          "location": "src/eShopWinForms/eShopWinForms.csproj",
+          "locationKind": "File",
+          "snippet": "Found 90 files matching the rule:\n\nAssets\\Images\\backgroundPhoto.jpg\nAssets\\Images\\Catalog\\1.png\nAssets\\Images\\Catalog\\10.png\nAssets\\Images\\Catalog\\11.png\nAssets\\Images\\Catalog\\12.png\nAssets\\Images\\Catalog\\13.png\nAssets\\Images\\Catalog\\14.png\nAssets\\Images\\Catalog\\2.png\nAssets\\Images\\Catalog\\3.png\nAssets\\Images\\Catalog\\4.png\nAssets\\Images\\Catalog\\5.png\nAssets\\Images\\Catalog\\6.png\nAssets\\Images\\Catalog\\7.png\nAssets\\Images\\Catalog\\8.png\nAssets\\Images\\Catalog\\9.png\nAssets\\Images\\LoginLogo.png\nAssets\\Images\\profile.png\nAssets\\LockScreenLogo.scale-100.png\nAssets\\LockScreenLogo.scale-125.png\nAssets\\LockScreenLogo.scale-150.png\nAssets\\LockScreenLogo.scale-200.png\nAssets\\LockScreenLogo.scale-400.png\nAssets\\SplashScreen.scale-100.png\nAssets\\SplashScreen.scale-125.png\nAssets\\SplashScreen.scale-150.png\nAssets\\SplashScreen.scale-200.png\nAssets\\SplashScreen.scale-400.png\nAssets\\Square150x150Logo.scale-100.png\nAssets\\Square150x150Logo.scale-125.png\nAssets\\Square150x150Logo.scale-150.png\nAssets\\Square150x150Logo.scale-200.png\nAssets\\Square150x150Logo.scale-400.png\nAssets\\Square310x310Logo.scale-100.png\nAssets\\Square310x310Logo.scale-125.png\nAssets\\Square310x310Logo.scale-150.png\nAssets\\Square310x310Logo.scale-200.png\nAssets\\Square310x310Logo.scale-400.png\nAssets\\Square44x44Logo.scale-100.png\nAssets\\Square44x44Logo.scale-125.png\nAssets\\Square44x44Logo.scale-150.png\nAssets\\Square44x44Logo.scale-200.png\nAssets\\Square44x44Logo.scale-400.png\nAssets\\Square44x44Logo.targetsize-16_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-16.png\nAssets\\Square44x44Logo.targetsize-20_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-20.png\nAssets\\Square44x44Logo.targetsize-24_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-24.png\nAssets\\Square44x44Logo.targetsize-256_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-256.png\nAssets\\Square44x44Logo.targetsize-30_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-30.png\nAssets\\Square44x44Logo.targetsize-32_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-32.png\nAssets\\Square44x44Logo.targetsize-36_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-36.png\nAssets\\Square44x44Logo.targetsize-40_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-40.png\nAssets\\Square44x44Logo.targetsize-48_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-48.png\nAssets\\Square44x44Logo.targetsize-60_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-60.png\nAssets\\Square44x44Logo.targetsize-64_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-64.png\nAssets\\Square44x44Logo.targetsize-72_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-72.png\nAssets\\Square44x44Logo.targetsize-80_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-80.png\nAssets\\Square44x44Logo.targetsize-96_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-96.png\nAssets\\Square71x71Logo.scale-100.png\nAssets\\Square71x71Logo.scale-125.png\nAssets\\Square71x71Logo.scale-150.png\nAssets\\Square71x71Logo.scale-200.png\nAssets\\Square71x71Logo.scale-400.png\nAssets\\StoreLogo.scale-100.png\nAssets\\StoreLogo.scale-125.png\nAssets\\StoreLogo.scale-150.png\nAssets\\StoreLogo.scale-200.png\nAssets\\StoreLogo.scale-400.png\nAssets\\Tiles\\1.png\nAssets\\Tiles\\2.png\nAssets\\Tiles\\3.png\nAssets\\Tiles\\4.png\nAssets\\Tiles\\5.png\nAssets\\Wide310x150Logo.scale-100.png\nAssets\\Wide310x150Logo.scale-125.png\nAssets\\Wide310x150Logo.scale-150.png\nAssets\\Wide310x150Logo.scale-200.png\nAssets\\Wide310x150Logo.scale-400.png\n",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Runtime.0002": {
+      "id": "Runtime.0002",
+      "description": "Upgrade to newer target framework to get better cloud experience.\n\nIf you are targeting Managed Instance on Azure App Service, validate on .NET Framework 4.8 or move to .NET 10. Persist any runtime prerequisites via install scripts; test in staging before production.\n\nWhile if targeting other Azure compute services:\n\nApplication targeting .NET framework lower than 4.7.1 might missing features that would be needed for some cloud scenarios like scaling or getting secrets from secure external sources.\n\nAzure App Service runs apps on .NET Framework 4.8 or .NET Framework 3.5. Apps running on on .NET Framework versions older than .NET Framework 4.8 could have potential compatibility issues. It is recommended to test your application running on .NET Framework 4.8. Note that it is not necessary to re-target to .NET Framework 4.8, only to validate that the app correctly runs on that version of .NET Framework.\n\nIn the long term it is also recommended to upgrade your application to latest supported .NET 8\u002B which would significantly increase performance of your application. Use tools like .NET Upgrade Assistant to help with upgrading your application to newer .NET.",
+      "title": "Upgrade to newer target framework to get better cloud experience",
+      "severity": "optional",
+      "effort": 3,
+      "links": [
+        {
+          "title": "[Managed Instance] Install scripts",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2347059"
+        },
+        {
+          "title": ".NET Framework Breaking Changes",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250029"
+        },
+        {
+          "title": ".NET Framework 4.8 on App Service",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2251730"
+        },
+        {
+          "title": "Upgrade to latest .NET with Upgrade Assistant",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2202641"
+        }
+      ],
+      "labels": []
+    },
+    "Scale.0001": {
+      "id": "Scale.0001",
+      "description": "Static content detected.\n\nYour current approach of serving static content directly might lead to increased costs, performance issues, maintenance challenges (requiring application redeployment for content changes), and security risks.\n\nConsider moving static content to Azure Blob Storage and adding Azure CDN.",
+      "title": "Static content detected",
+      "severity": "optional",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Azure Blob Storage",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250574"
+        },
+        {
+          "title": "Azure CDN",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250392"
+        }
+      ],
+      "labels": []
+    }
+  }
+}
