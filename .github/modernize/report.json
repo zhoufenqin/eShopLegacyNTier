@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "producer": ".NET AppCAT CLI",
   "metadata": {
-    "analysisStartTime": "2026-02-25T03:30:12.9072947Z",
-    "analysisEndTime": "2026-02-25T03:30:14.0479952Z",
+    "analysisStartTime": "2026-02-25T06:10:12.7826764Z",
+    "analysisEndTime": "2026-02-25T06:10:13.9427598Z",
     "privacyMode": "Protected",
     "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2271074",
     "targetIds": [
@@ -68,7 +68,7 @@
       "incidents": [
         {
           "ruleId": "Runtime.0002",
-          "incidentId": "4713e876-bc3c-4680-9aea-69d7a45e3507",
+          "incidentId": "9e58dc97-fb3b-4b00-b5e8-9624c6a90bac",
           "location": "src/eShopWCFService/eShopWCFService.csproj",
           "locationKind": "File",
           "snippet": "Target framework: .NETFramework,Version=v4.6.1",
@@ -110,7 +110,7 @@
         },
         {
           "ruleId": "Database.0002",
-          "incidentId": "77e315d9-7d14-41c4-a751-46bf763337c1",
+          "incidentId": "f63d3dac-52c3-4fdb-90e9-dd73c45f3e39",
           "location": "src/eShopWCFService/Web.config",
           "locationKind": "File",
           "snippet": "\u003Cadd name=\u0022EntityModel\u0022 /\u003E",
@@ -152,7 +152,7 @@
         },
         {
           "ruleId": "Database.0003",
-          "incidentId": "3d0d00c6-3e61-4f01-bff6-f8bf005b8cf1",
+          "incidentId": "fe5abd99-d2bd-4660-9905-fa8e308c5140",
           "location": "src/eShopWCFService/Web.config",
           "locationKind": "File",
           "snippet": "\u003Cadd name=\u0022EntityModel\u0022 /\u003E",
@@ -194,7 +194,7 @@
         },
         {
           "ruleId": "Security.0002",
-          "incidentId": "35a0c6ae-859e-4cc6-88c8-c9b037a0ea3b",
+          "incidentId": "ea7b44d6-1be6-4d03-805a-dc69b0bd3ea1",
           "location": "src/eShopWCFService/Web.config",
           "locationKind": "File",
           "snippet": "\u003CappSettings /\u003E",
@@ -236,7 +236,7 @@
         },
         {
           "ruleId": "Security.0002",
-          "incidentId": "7e9c7cb5-1216-40e8-aacd-78cb4e4cda04",
+          "incidentId": "ba246816-e5fc-4588-b9ab-934f3cff297c",
           "location": "src/eShopWCFService/Web.config",
           "locationKind": "File",
           "snippet": "\u003CconnectionStrings /\u003E",
@@ -297,7 +297,7 @@
       "incidents": [
         {
           "ruleId": "Runtime.0002",
-          "incidentId": "aeec76e5-8417-434b-928f-eb99a94d2b0e",
+          "incidentId": "dabc63ab-3bbd-4736-9c04-aaec3dbdc8cb",
           "location": "src/eShopWinForms/eShopWinForms.csproj",
           "locationKind": "File",
           "snippet": "Target framework: .NETFramework,Version=v4.7",
@@ -339,7 +339,7 @@
         },
         {
           "ruleId": "Scale.0001",
-          "incidentId": "e91e1456-5130-49d4-b51b-3ec20de479d5",
+          "incidentId": "2ddf771e-29c0-457f-9c59-062ec1cf7005",
           "location": "src/eShopWinForms/eShopWinForms.csproj",
           "locationKind": "File",
           "snippet": "Found 90 files matching the rule:\n\nAssets\\Images\\backgroundPhoto.jpg\nAssets\\Images\\Catalog\\1.png\nAssets\\Images\\Catalog\\10.png\nAssets\\Images\\Catalog\\11.png\nAssets\\Images\\Catalog\\12.png\nAssets\\Images\\Catalog\\13.png\nAssets\\Images\\Catalog\\14.png\nAssets\\Images\\Catalog\\2.png\nAssets\\Images\\Catalog\\3.png\nAssets\\Images\\Catalog\\4.png\nAssets\\Images\\Catalog\\5.png\nAssets\\Images\\Catalog\\6.png\nAssets\\Images\\Catalog\\7.png\nAssets\\Images\\Catalog\\8.png\nAssets\\Images\\Catalog\\9.png\nAssets\\Images\\LoginLogo.png\nAssets\\Images\\profile.png\nAssets\\LockScreenLogo.scale-100.png\nAssets\\LockScreenLogo.scale-125.png\nAssets\\LockScreenLogo.scale-150.png\nAssets\\LockScreenLogo.scale-200.png\nAssets\\LockScreenLogo.scale-400.png\nAssets\\SplashScreen.scale-100.png\nAssets\\SplashScreen.scale-125.png\nAssets\\SplashScreen.scale-150.png\nAssets\\SplashScreen.scale-200.png\nAssets\\SplashScreen.scale-400.png\nAssets\\Square150x150Logo.scale-100.png\nAssets\\Square150x150Logo.scale-125.png\nAssets\\Square150x150Logo.scale-150.png\nAssets\\Square150x150Logo.scale-200.png\nAssets\\Square150x150Logo.scale-400.png\nAssets\\Square310x310Logo.scale-100.png\nAssets\\Square310x310Logo.scale-125.png\nAssets\\Square310x310Logo.scale-150.png\nAssets\\Square310x310Logo.scale-200.png\nAssets\\Square310x310Logo.scale-400.png\nAssets\\Square44x44Logo.scale-100.png\nAssets\\Square44x44Logo.scale-125.png\nAssets\\Square44x44Logo.scale-150.png\nAssets\\Square44x44Logo.scale-200.png\nAssets\\Square44x44Logo.scale-400.png\nAssets\\Square44x44Logo.targetsize-16_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-16.png\nAssets\\Square44x44Logo.targetsize-20_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-20.png\nAssets\\Square44x44Logo.targetsize-24_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-24.png\nAssets\\Square44x44Logo.targetsize-256_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-256.png\nAssets\\Square44x44Logo.targetsize-30_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-30.png\nAssets\\Square44x44Logo.targetsize-32_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-32.png\nAssets\\Square44x44Logo.targetsize-36_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-36.png\nAssets\\Square44x44Logo.targetsize-40_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-40.png\nAssets\\Square44x44Logo.targetsize-48_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-48.png\nAssets\\Square44x44Logo.targetsize-60_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-60.png\nAssets\\Square44x44Logo.targetsize-64_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-64.png\nAssets\\Square44x44Logo.targetsize-72_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-72.png\nAssets\\Square44x44Logo.targetsize-80_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-80.png\nAssets\\Square44x44Logo.targetsize-96_altform-unplated.png\nAssets\\Square44x44Logo.targetsize-96.png\nAssets\\Square71x71Logo.scale-100.png\nAssets\\Square71x71Logo.scale-125.png\nAssets\\Square71x71Logo.scale-150.png\nAssets\\Square71x71Logo.scale-200.png\nAssets\\Square71x71Logo.scale-400.png\nAssets\\StoreLogo.scale-100.png\nAssets\\StoreLogo.scale-125.png\nAssets\\StoreLogo.scale-150.png\nAssets\\StoreLogo.scale-200.png\nAssets\\StoreLogo.scale-400.png\nAssets\\Tiles\\1.png\nAssets\\Tiles\\2.png\nAssets\\Tiles\\3.png\nAssets\\Tiles\\4.png\nAssets\\Tiles\\5.png\nAssets\\Wide310x150Logo.scale-100.png\nAssets\\Wide310x150Logo.scale-125.png\nAssets\\Wide310x150Logo.scale-150.png\nAssets\\Wide310x150Logo.scale-200.png\nAssets\\Wide310x150Logo.scale-400.png\n",
