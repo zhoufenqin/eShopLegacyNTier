@@ -31,7 +31,7 @@ This skill performs a simplified assessment workflow:
      - Auto-detects project configuration
    - **For .NET projects**: Install and run AppCAT directly
      - Install: `dotnet tool update dotnet-appcat`
-     - Run: `dotnet-appcat analyze --source {workspace-path} --target Any --serializer APPMODJSON --code --privacyMode Protected --non-interactive --report {workspace-path}\.github\modernize\report.json`
+     - Run: `dotnet-appcat analyze --source Solution --target Any --serializer APPMODJSON --code --privacyMode Protected --non-interactive --report {workspace-path}\.github\modernize\report.json`
    - Analyzes code for cloud migration issues
    - Generates structured assessment data
    - Report is stored under `.github/modernize/` directory
