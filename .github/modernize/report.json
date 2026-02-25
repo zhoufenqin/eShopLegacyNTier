@@ -1,0 +1,352 @@
+{
+  "version": "1.0.0",
+  "producer": ".NET AppCAT CLI",
+  "metadata": {
+    "analysisStartTime": "2026-02-25T07:39:24.6952837Z",
+    "analysisEndTime": "2026-02-25T07:39:24.8692562Z",
+    "privacyMode": "Protected",
+    "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2271074",
+    "targetIds": [
+      "AppService.Windows",
+      "AppService.Linux",
+      "AKS.Linux",
+      "AKS.Windows",
+      "ACA",
+      "AppServiceContainer.Linux",
+      "AppServiceContainer.Windows",
+      "AppServiceManagedInstance.Windows"
+    ],
+    "targetDisplayNames": [
+      "Azure App Service",
+      "Azure Kubernetes Service",
+      "Azure Container Apps",
+      "Azure App Service Container",
+      "Azure App Service Managed Instance"
+    ],
+    "os": [
+      "windows",
+      "linux"
+    ]
+  },
+  "summary": {
+    "totalProjects": 1,
+    "totalIssues": 4,
+    "totalIncidents": 5,
+    "totalEffort": 15,
+    "charts": {
+      "severity": {
+        "mandatory": 0,
+        "optional": 4,
+        "potential": 1,
+        "information": 0
+      },
+      "category": {
+        "Scale": 1,
+        "Database": 2,
+        "Security": 2
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "eShopLegacyNTier",
+      "issues": 4,
+      "storyPoints": 15,
+      "properties": {
+        "appName": "",
+        "frameworks": [],
+        "languages": [],
+        "tools": []
+      },
+      "incidents": [
+        {
+          "ruleId": "Scale.0001",
+          "incidentId": "d2e1648d-0d05-421a-b535-6236d0b38528",
+          "location": "eShopLegacyNTier",
+          "locationKind": "File",
+          "snippet": "Found 98 files matching the rule:\n\nsrc/eShopWinForms/Assets/Fonts/segoesb.ttf\nsrc/eShopWinForms/Assets/Fonts/segoeui.ttf\nsrc/eShopWinForms/Assets/Fonts/segoeuib.ttf\nsrc/eShopWinForms/Assets/Fonts/segoeuil.ttf\nsrc/eShopWinForms/Assets/Images/backgroundPhoto.jpg\nsrc/eShopWinForms/Assets/Images/brand_dark.png\nsrc/eShopWinForms/Assets/Images/brand.png\nsrc/eShopWinForms/Assets/Images/Catalog/1.png\nsrc/eShopWinForms/Assets/Images/Catalog/10.png\nsrc/eShopWinForms/Assets/Images/Catalog/11.png\nsrc/eShopWinForms/Assets/Images/Catalog/12.png\nsrc/eShopWinForms/Assets/Images/Catalog/13.png\nsrc/eShopWinForms/Assets/Images/Catalog/14.png\nsrc/eShopWinForms/Assets/Images/Catalog/2.png\nsrc/eShopWinForms/Assets/Images/Catalog/3.png\nsrc/eShopWinForms/Assets/Images/Catalog/4.png\nsrc/eShopWinForms/Assets/Images/Catalog/5.png\nsrc/eShopWinForms/Assets/Images/Catalog/6.png\nsrc/eShopWinForms/Assets/Images/Catalog/7.png\nsrc/eShopWinForms/Assets/Images/Catalog/8.png\nsrc/eShopWinForms/Assets/Images/Catalog/9.png\nsrc/eShopWinForms/Assets/Images/LoginLogo.png\nsrc/eShopWinForms/Assets/Images/main_banner.png\nsrc/eShopWinForms/Assets/Images/main_footer_text.png\nsrc/eShopWinForms/Assets/Images/profile.png\nsrc/eShopWinForms/Assets/LockScreenLogo.scale-100.png\nsrc/eShopWinForms/Assets/LockScreenLogo.scale-125.png\nsrc/eShopWinForms/Assets/LockScreenLogo.scale-150.png\nsrc/eShopWinForms/Assets/LockScreenLogo.scale-200.png\nsrc/eShopWinForms/Assets/LockScreenLogo.scale-400.png\nsrc/eShopWinForms/Assets/SplashScreen.scale-100.png\nsrc/eShopWinForms/Assets/SplashScreen.scale-125.png\nsrc/eShopWinForms/Assets/SplashScreen.scale-150.png\nsrc/eShopWinForms/Assets/SplashScreen.scale-200.png\nsrc/eShopWinForms/Assets/SplashScreen.scale-400.png\nsrc/eShopWinForms/Assets/Square150x150Logo.scale-100.png\nsrc/eShopWinForms/Assets/Square150x150Logo.scale-125.png\nsrc/eShopWinForms/Assets/Square150x150Logo.scale-150.png\nsrc/eShopWinForms/Assets/Square150x150Logo.scale-200.png\nsrc/eShopWinForms/Assets/Square150x150Logo.scale-400.png\nsrc/eShopWinForms/Assets/Square310x310Logo.scale-100.png\nsrc/eShopWinForms/Assets/Square310x310Logo.scale-125.png\nsrc/eShopWinForms/Assets/Square310x310Logo.scale-150.png\nsrc/eShopWinForms/Assets/Square310x310Logo.scale-200.png\nsrc/eShopWinForms/Assets/Square310x310Logo.scale-400.png\nsrc/eShopWinForms/Assets/Square44x44Logo.scale-100.png\nsrc/eShopWinForms/Assets/Square44x44Logo.scale-125.png\nsrc/eShopWinForms/Assets/Square44x44Logo.scale-150.png\nsrc/eShopWinForms/Assets/Square44x44Logo.scale-200.png\nsrc/eShopWinForms/Assets/Square44x44Logo.scale-400.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-16_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-16.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-20_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-20.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-24_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-24.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-256_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-256.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-30_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-30.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-32_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-32.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-36_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-36.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-40_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-40.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-48_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-48.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-60_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-60.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-64_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-64.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-72_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-72.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-80_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-80.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-96_altform-unplated.png\nsrc/eShopWinForms/Assets/Square44x44Logo.targetsize-96.png\nsrc/eShopWinForms/Assets/Square71x71Logo.scale-100.png\nsrc/eShopWinForms/Assets/Square71x71Logo.scale-125.png\nsrc/eShopWinForms/Assets/Square71x71Logo.scale-150.png\nsrc/eShopWinForms/Assets/Square71x71Logo.scale-200.png\nsrc/eShopWinForms/Assets/Square71x71Logo.scale-400.png\nsrc/eShopWinForms/Assets/StoreLogo.scale-100.png\nsrc/eShopWinForms/Assets/StoreLogo.scale-125.png\nsrc/eShopWinForms/Assets/StoreLogo.scale-150.png\nsrc/eShopWinForms/Assets/StoreLogo.scale-200.png\nsrc/eShopWinForms/Assets/StoreLogo.scale-400.png\nsrc/eShopWinForms/Assets/Tiles/1.png\nsrc/eShopWinForms/Assets/Tiles/2.png\nsrc/eShopWinForms/Assets/Tiles/3.png\nsrc/eShopWinForms/Assets/Tiles/4.png\nsrc/eShopWinForms/Assets/Tiles/5.png\nsrc/eShopWinForms/Assets/Wide310x150Logo.scale-100.png\nsrc/eShopWinForms/Assets/Wide310x150Logo.scale-125.png\nsrc/eShopWinForms/Assets/Wide310x150Logo.scale-150.png\nsrc/eShopWinForms/Assets/Wide310x150Logo.scale-200.png\nsrc/eShopWinForms/Assets/Wide310x150Logo.scale-400.png\n",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Database.0002",
+          "incidentId": "7b69df80-d5ea-447c-ad43-16f49177e657",
+          "location": "eShopLegacyNTier/src/eShopWCFService/Web.config",
+          "locationKind": "File",
+          "snippet": "\u003Cadd name=\u0022EntityModel\u0022 /\u003E",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Database.0003",
+          "incidentId": "5d232773-5dab-458a-af96-56700bffe567",
+          "location": "eShopLegacyNTier/src/eShopWCFService/Web.config",
+          "locationKind": "File",
+          "snippet": "\u003Cadd name=\u0022EntityModel\u0022 /\u003E",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0002",
+          "incidentId": "556db43d-8363-4464-9170-9a280e52ef14",
+          "location": "eShopLegacyNTier/src/eShopWCFService/Web.config",
+          "locationKind": "File",
+          "snippet": "\u003CappSettings /\u003E",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0002",
+          "incidentId": "ac536a34-4ce8-4d35-a21c-20cb784f63ab",
+          "location": "eShopLegacyNTier/src/eShopWCFService/Web.config",
+          "locationKind": "File",
+          "snippet": "\u003CconnectionStrings /\u003E",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Scale.0001": {
+      "id": "Scale.0001",
+      "description": "Static content detected.\n\nYour current approach of serving static content directly might lead to increased costs, performance issues, maintenance challenges (requiring application redeployment for content changes), and security risks.\n\nConsider moving static content to Azure Blob Storage and adding Azure CDN.",
+      "title": "Static content detected",
+      "severity": "optional",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Azure Blob Storage",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250574"
+        },
+        {
+          "title": "Azure CDN",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250392"
+        }
+      ],
+      "labels": []
+    },
+    "Database.0002": {
+      "id": "Database.0002",
+      "description": "SQL database connection detected.\n\nEnsure the database is available/reachable on Azure.\n\nIf it is not, there are multiple ways you can move your data to Azure:\n    1. Migrate to Azure SQL Database.\n    2. Consider Azure SQL Managed Instance if you need features that are not available in Azure SQL Database and you don\u2019t want to use a VM.\n    3. Migrate your database servers directly to SQL Server on Azure VMs.\n\nTo assess database migration effort, you can use Azure Migrate tool, see the link below.",
+      "title": "SQL database connection detected",
+      "severity": "potential",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Migrate SQL Server database to Azure",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251731"
+        },
+        {
+          "title": "Azure SQL Managed Instance",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251613"
+        },
+        {
+          "title": "Azure Migrate",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2252410"
+        }
+      ],
+      "labels": []
+    },
+    "Database.0003": {
+      "id": "Database.0003",
+      "description": "System.Data.SqlClient dependency is detected.\n\nWhile System.Data.SqlClient will work in Azure, the newer Microsoft.Data.SqlClient package is the primary .NET SQL client moving forward and receiving the latest features. For example, Microsoft.Data.SqlClient easily allows use of Azure Managed Identity from a connection string.",
+      "title": "System.Data.SqlClient dependency detected",
+      "severity": "optional",
+      "effort": 3,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242668"
+        }
+      ],
+      "labels": []
+    },
+    "Security.0002": {
+      "id": "Security.0002",
+      "description": "Connection strings without configuration builders detected.  \n\n Keeping connection strings directly in the app is not the best practice and might introduce security risks, increased maintenance, scalability challenges or compliance standards (such as PCI DSS, GDPR, etc.). \n\n Instead, it is recommended to use configuration builders to get secrets from secure sources in Azure environment.",
+      "title": "Connection strings without configuration builders detected",
+      "severity": "optional",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Configuration builders",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250915"
+        },
+        {
+          "title": "Storing application secrets",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250916"
+        },
+        {
+          "title": "Centralized app configuration and security",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250733"
+        }
+      ],
+      "labels": []
+    }
+  }
+}
