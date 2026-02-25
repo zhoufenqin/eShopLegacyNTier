@@ -25,18 +25,24 @@ This skill performs a simplified assessment workflow:
    - **For .NET projects**: Check if .NET SDK is available
      - No MCP tools required for .NET assessment
 
-2. **Run Assessment**:
+2. **Clean Previous Assessment Data**:
+   - Remove files in `.github/modernize/appcat` folder to prevent interference with the new assessment
+   - This ensures a clean state before running the assessment
+
+3. **Run Assessment**:
    - **For Java projects**: Trigger AppCAT analysis via Assessment MCP server
      - Uses 'appmod-precheck-assessment' and 'appmod-run-assessment' MCP tools
      - Auto-detects project configuration
    - **For .NET projects**: Install and run AppCAT directly
      - Install: `dotnet tool update dotnet-appcat`
-     - Run: `dotnet-appcat analyze --source Solution --target Any --serializer APPMODJSON --code --privacyMode Protected --non-interactive --report {workspace-path}\.github\modernize\report.json`
+     - Find all .csproj files in the workspace
+     - Join project paths with semicolons: `projectPaths="project1.csproj;project2.csproj"`
+     - Run: `dotnet-appcat analyze $projectPaths --source Solution --target Any --serializer APPMODJSON --code --privacyMode Protected --non-interactive --report {workspace-path}\.github\modernize\report.json`
    - Analyzes code for cloud migration issues
    - Generates structured assessment data
    - Report is stored under `.github/modernize/` directory
 
-3. **Consolidate Report** (Java projects only):
+4. **Consolidate Report** (Java projects only):
    - Search for `report.json` under `.github/modernize/` subdirectories
    - Common locations: `.github/modernize/appcat/result/report.json`
    - Copy the latest report to `.github/modernize/report.json`
