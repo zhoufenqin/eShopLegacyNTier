@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "producer": ".NET AppCAT CLI",
   "metadata": {
-    "analysisStartTime": "2026-03-05T06:56:29.3559659Z",
-    "analysisEndTime": "2026-03-05T06:56:31.5904485Z",
+    "analysisStartTime": "2026-03-05T07:31:49.3663312Z",
+    "analysisEndTime": "2026-03-05T07:31:51.3791856Z",
     "privacyMode": "Restricted",
     "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2271074",
     "targetIds": [
@@ -69,7 +69,7 @@
       "incidents": [
         {
           "ruleId": "Runtime.0002",
-          "incidentId": "4c07cb20-b186-4866-8278-257d2226d124",
+          "incidentId": "3586e618-e02b-4d74-8af2-97c473709705",
           "location": "src\\eShopWCFService\\eShopWCFService.csproj",
           "locationKind": "File",
           "targets": {
@@ -110,7 +110,7 @@
         },
         {
           "ruleId": "Database.0002",
-          "incidentId": "1a4233cd-5793-403a-98c9-5abab223d18d",
+          "incidentId": "5a4307ab-9c99-4225-ac18-db30f4e0ba3c",
           "location": "src\\eShopWCFService\\Web.config",
           "locationKind": "File",
           "targets": {
@@ -151,7 +151,7 @@
         },
         {
           "ruleId": "Database.0003",
-          "incidentId": "0f01b3ce-115a-413c-938b-e3ae501c6d5c",
+          "incidentId": "eedc2615-27c1-4e12-9d9d-171b79b89756",
           "location": "src\\eShopWCFService\\Web.config",
           "locationKind": "File",
           "targets": {
@@ -192,7 +192,7 @@
         },
         {
           "ruleId": "Security.0002",
-          "incidentId": "a6eec651-5d34-402c-b79b-ae6786f9ac2c",
+          "incidentId": "3dab0c55-4047-474b-bd67-baa6f5b53f5a",
           "location": "src\\eShopWCFService\\Web.config",
           "locationKind": "File",
           "targets": {
@@ -233,7 +233,7 @@
         },
         {
           "ruleId": "Security.0002",
-          "incidentId": "00dcb4c1-9d8d-441b-a410-054e5b7f1bc7",
+          "incidentId": "f6ea41ca-a54e-424e-a1a7-e2e543e1933b",
           "location": "src\\eShopWCFService\\Web.config",
           "locationKind": "File",
           "targets": {
@@ -293,7 +293,7 @@
       "incidents": [
         {
           "ruleId": "Runtime.0002",
-          "incidentId": "a434052e-d841-406d-b70a-77fb09bbc35c",
+          "incidentId": "25af6f84-15f9-41dc-8518-9265395376f6",
           "location": "src\\eShopWinForms\\eShopWinForms.csproj",
           "locationKind": "File",
           "targets": {
@@ -334,7 +334,7 @@
         },
         {
           "ruleId": "Scale.0001",
-          "incidentId": "6c6e904e-84c1-41b4-9973-72245fb956c0",
+          "incidentId": "a1065cf5-d5bb-4bd6-b1d9-bd4ccfe8cb56",
           "location": "src\\eShopWinForms\\eShopWinForms.csproj",
           "locationKind": "File",
           "targets": {
@@ -375,7 +375,7 @@
         },
         {
           "ruleId": "Local.0003",
-          "incidentId": "4570a881-13a7-49cd-8431-bc1591a88edf",
+          "incidentId": "06add503-bc41-4fb6-ad4a-3e1118787f84",
           "location": "src\\eShopWinForms\\Views\\CatalogView.cs",
           "locationKind": "File",
           "line": 57,
@@ -418,7 +418,7 @@
         },
         {
           "ruleId": "Local.0007",
-          "incidentId": "6e6d75dd-93ba-48ed-8c64-6337b133233c",
+          "incidentId": "c0c3709a-7158-4015-a029-056b4e39a46d",
           "location": "src\\eShopWinForms\\Views\\CatalogView.cs",
           "locationKind": "File",
           "line": 56,
@@ -461,7 +461,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "046e4ba5-0139-4294-b470-699c2156bdc7",
+          "incidentId": "8af43702-9867-41ff-8351-c09a02aadb67",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 17,
@@ -504,7 +504,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "2f2ab479-85ac-4da6-babb-d811cf888685",
+          "incidentId": "bdc5cc13-d0cd-4bf2-a7b7-bb258545594b",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 190,
@@ -547,7 +547,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "31041101-557a-4769-9169-d2f48f671003",
+          "incidentId": "29ff9ae2-4742-41d8-9cdb-1206e19a6f8a",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 251,
@@ -590,7 +590,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "ca6be055-b215-4b18-8ff6-602c0833ce2e",
+          "incidentId": "b72c3614-e6ab-44a6-97d3-d2d51c2cac23",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 405,
@@ -633,7 +633,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "110c09a7-4acd-40a6-8c49-b7a2fb43a91c",
+          "incidentId": "7ff6263f-2d66-43bb-82a3-d084a4bedfcc",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 312,
@@ -676,7 +676,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "4775ac41-f78d-46cf-9adf-90ac993629fb",
+          "incidentId": "2e7526a0-88cd-4423-9f9f-2219ffd13756",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 530,
@@ -719,7 +719,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "acabe401-69c2-402e-9731-550635db44d9",
+          "incidentId": "e4bb3f80-d582-42c3-8502-b28b2ddf32b4",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 533,
@@ -762,7 +762,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "07e646fb-0e1a-467f-9587-868ec8181d82",
+          "incidentId": "27e4f664-6fc5-498b-9532-107ba0734509",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 530,
@@ -805,7 +805,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "fdee9ac5-c542-47d3-a914-1ad49bb72968",
+          "incidentId": "27e2342c-bd44-4f09-9d3a-fc31108b4383",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 533,
@@ -848,7 +848,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "54a534de-2fba-49d8-a394-a0ad78778eb2",
+          "incidentId": "ec4ef382-e54e-42a9-9ba5-005e3bbb5fa2",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 536,
@@ -891,7 +891,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "8d790e1d-d923-4533-82da-2ad3d6eb798b",
+          "incidentId": "c55ac89d-0522-4f30-aeee-5d6a99a7d4ad",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 539,
@@ -934,7 +934,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "6595504b-fba3-4c2c-ad6a-57fb9270d64e",
+          "incidentId": "5466b224-2a85-4446-b2b4-ae001725cdfd",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 536,
@@ -977,7 +977,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "c8bd3feb-a0ac-4e15-b547-f544e102fe21",
+          "incidentId": "0df894ed-1679-4d32-8f4a-e738e2a70b47",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 539,
@@ -1020,7 +1020,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "7725beab-512c-4591-8f7e-b72dbefd2039",
+          "incidentId": "21837174-bdc1-44fa-9869-d1d1d82166b1",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 500,
@@ -1063,7 +1063,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "bf9335ac-a7a0-4f40-81da-fb2868f2abaf",
+          "incidentId": "7ab6c010-7635-4e3f-afc5-ee51806fe9e4",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 503,
@@ -1106,7 +1106,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "e8b58ee3-4110-4ff1-a767-09c0031d268d",
+          "incidentId": "31237cca-f974-4aff-8b65-3f53d2c52e70",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 500,
@@ -1149,7 +1149,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "edd0170b-ba86-42f8-90c9-62ebd0ef7575",
+          "incidentId": "e0985de5-ca5c-4a19-9ea9-89f30ac6e027",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 503,
@@ -1192,7 +1192,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "b3e9f372-5632-4398-a523-275fe45cec39",
+          "incidentId": "f14015f0-ecea-4d16-ada1-805e0a2747c6",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 524,
@@ -1235,7 +1235,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "8c32f475-0e33-43d6-aff5-4b3d10ccb2cc",
+          "incidentId": "d5fe3129-af41-4115-9220-6c858484571b",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 527,
@@ -1278,7 +1278,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "8f11e016-b063-4c01-9b8a-fb9f4e30cd73",
+          "incidentId": "c548829d-73ae-44cb-923a-a4ec47d82baa",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 524,
@@ -1321,7 +1321,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "35c4f007-9c59-47b9-97e0-25d25d33726d",
+          "incidentId": "70279f20-a5a3-44c3-b35c-521e814a77c7",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 527,
@@ -1364,7 +1364,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "16cedb36-927c-4972-bb2d-62ab08918cc9",
+          "incidentId": "501ae8b3-6021-4153-8cc1-699485a433a2",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 506,
@@ -1407,7 +1407,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "91ad452f-abe3-4c36-9fab-e70301fd4e9b",
+          "incidentId": "bc5be5e7-24ee-4e36-af41-0e6e2573a757",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 509,
@@ -1450,7 +1450,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "8c43e44d-fc5e-483d-854a-ffc92df5fd63",
+          "incidentId": "f7056719-2430-43cc-b54e-9399088e2141",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 506,
@@ -1493,7 +1493,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "9e8606dd-87a5-4bae-9efb-eff28f93e41e",
+          "incidentId": "f57f0e2f-9ff5-4dc8-920f-c1f5ef63544b",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 509,
@@ -1536,7 +1536,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "4f669040-032a-4e52-b8f2-1e2ff7aaeafb",
+          "incidentId": "d62b5420-d0b5-4380-8019-880d540fcf2a",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 512,
@@ -1579,7 +1579,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "75faf958-adef-4fd3-9b63-07ccd1a9d9f9",
+          "incidentId": "f3c105ad-3f2e-4e25-b451-3d6b8f990376",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 515,
@@ -1622,7 +1622,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "4a60ab06-afe0-47ae-88f2-c0a729e35096",
+          "incidentId": "16087e79-5a87-4ef4-b6ba-8b875ba944c5",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 512,
@@ -1665,7 +1665,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "276ccc13-9d65-464b-958a-57a68e656628",
+          "incidentId": "52f60f33-2792-402a-b784-36d4b55636d8",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 515,
@@ -1708,7 +1708,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "cb0e46e8-868d-4924-8d07-39fd93a02f7d",
+          "incidentId": "6c16d6b6-d794-470b-8c5e-0719a4405c22",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 518,
@@ -1751,7 +1751,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "03001da7-7478-4b97-8975-61231bc93493",
+          "incidentId": "ee9c7311-37d0-4633-971d-67c417022943",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 521,
@@ -1794,7 +1794,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "bddb39ee-48e9-4fe2-8ff8-130670999b77",
+          "incidentId": "dc091cb5-47ed-432b-8553-161f10592cd8",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 518,
@@ -1837,7 +1837,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "ce3b42a5-0671-4870-aaa9-3729022f2e74",
+          "incidentId": "588576bf-1305-42cd-8618-87b2808e8404",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 521,
@@ -1880,7 +1880,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "0b6d1949-de66-4a02-b4c5-f72caa6439f6",
+          "incidentId": "c5ccab73-3a99-406f-a5c2-0c6f384979ad",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 554,
@@ -1923,7 +1923,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "9f3cae3b-d8a2-489c-9f75-66758dde7682",
+          "incidentId": "015fe424-9b55-45bf-9432-b2fd50e0d639",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 557,
@@ -1966,7 +1966,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "1be70af0-a52c-44ff-8b13-41ccc0374e11",
+          "incidentId": "72e6da43-aa27-4bb4-93dc-afb36a6edade",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 554,
@@ -2009,7 +2009,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "13dd65c4-859e-48e4-93df-8d9f59650ad3",
+          "incidentId": "f7573651-a89f-471c-a8d6-54496632e61d",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 557,
@@ -2052,7 +2052,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "2a658d4d-f6b8-46d3-bddb-4c81d0ab5cbb",
+          "incidentId": "e90f569d-2a9c-44e8-9881-c6cd38f13854",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 548,
@@ -2095,7 +2095,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "f3a89d5c-9f09-4bd3-b1ae-46668f71105b",
+          "incidentId": "a9d342fb-fea4-406e-b766-4b1d5dcd82fc",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 551,
@@ -2138,7 +2138,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "1d0f114f-4e47-47e9-bf00-8888978b93e8",
+          "incidentId": "6f99186a-a518-48e6-8781-9eebcb34fe43",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 548,
@@ -2181,7 +2181,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "455b1b3b-e9fc-4964-8e33-83a700518082",
+          "incidentId": "c4d31c5c-c161-47f2-a08b-e5016da0222d",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 551,
@@ -2224,7 +2224,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "a147187b-a426-4f2e-adae-1fb5e2d3fd68",
+          "incidentId": "f36bffee-343e-4653-ada6-63ec53566b6c",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 542,
@@ -2267,7 +2267,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "c90d64bb-0862-4fc6-9aa6-d68d29bcb5de",
+          "incidentId": "267ad746-5157-4bde-86c2-63fe7bac851d",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 545,
@@ -2310,7 +2310,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "aab3af1a-c9bc-4542-802f-2c3ce8f5508e",
+          "incidentId": "5cc9d5e2-56cb-4c23-899f-2075b16d8cc0",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 542,
@@ -2353,7 +2353,7 @@
         },
         {
           "ruleId": "Local.0006",
-          "incidentId": "8c358e30-9e25-426b-a817-3e08cbd085aa",
+          "incidentId": "2852692a-e110-4ab5-8a3e-2c7823a1b286",
           "location": "src\\eShopWinForms\\Connected Services\\eShopServiceReference\\Reference.cs",
           "locationKind": "File",
           "line": 545,
