@@ -6,14 +6,14 @@ This diagram illustrates the N-Tier architecture of the eShopLegacyNTier applica
 
 ```mermaid
 flowchart TD
-    subgraph Presentation["Presentation Tier — eShopWinForms (.NET 4.7, Windows Forms)"]
+    subgraph Presentation["Presentation Tier — eShopWinForms (.NET Framework 4.7, Windows Forms)"]
         UI["CatalogView\nWindows Forms UI"]
         CTRL["CatalogController\nMVC-style Controller"]
-        SVC_REF["WCF Service Reference\neShopServiceReference"]
+        SVC_REF["WCF Service Reference\neShopServiceReference\nNewtonsoft.Json 6.0"]
     end
 
-    subgraph Service["Service Tier — eShopWCFService (.NET 4.6.1, WCF / IIS)"]
-        ISVC["ICatalogService\nService Contract"]
+    subgraph Service["Service Tier — eShopWCFService (.NET Framework 4.6.1, WCF hosted on IIS)"]
+        ISVC["ICatalogService\nWCF Service Contract"]
         SVC["CatalogService\nService Implementation"]
         MOCK["CatalogServiceMock\nIn-Memory Mock"]
         EF["EntityModel\nEntity Framework 6 DbContext"]
@@ -31,7 +31,7 @@ flowchart TD
     end
 
     subgraph Data["Data Tier"]
-        DB[("SQL Server\nLocalDB — eShopDatabase")]
+        DB[("SQL Server LocalDB\neShopDatabase")]
     end
 
     UI --> CTRL
@@ -42,5 +42,5 @@ flowchart TD
     SVC --> EF
     EF --> Models
     EF --> Infra
-    EF -->|"ADO.NET / SQL Client"| DB
+    EF -->|"ADO.NET SqlClient"| DB
 ```
