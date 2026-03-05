@@ -6,30 +6,30 @@ This diagram shows the current architecture of the eShopLegacyNTier application,
 
 ```mermaid
 flowchart TD
-    subgraph Client["Presentation Layer – eShopWinForms (.NET 4.7)"]
-        UI["CatalogView\n(Windows Forms)"]
+    subgraph Client["Presentation Layer - eShopWinForms (.NET 4.7 WinForms)"]
+        UI["CatalogView\n(Windows Forms UI)"]
         Controller["CatalogController\n(MVC-style controller)"]
-        WCFClient["WCF Client Proxy\n(eShopServiceReference)"]
-        UI --> Controller
-        Controller --> WCFClient
+        WCFClient["WCF Client Proxy\n(eShopServiceReference / Newtonsoft.Json)"]
+        UI <--> Controller
+        Controller <--> WCFClient
     end
 
-    subgraph Service["Service Layer – eShopWCFService (.NET 4.6.1 / IIS)"]
-        WCFEndpoint["CatalogService\n(WCF / basicHttpBinding)"]
-        ServiceInterface["ICatalogService\n(service contract)"]
-        MockImpl["CatalogServiceMock\n(mock implementation)"]
+    subgraph Service["Service Layer - eShopWCFService (.NET 4.6.1 / IIS Express)"]
+        WCFEndpoint["CatalogService\n(WCF SOAP Service)"]
+        ServiceInterface["ICatalogService\n(ServiceContract)"]
+        MockImpl["CatalogServiceMock\n(test mock)"]
         WCFEndpoint --> ServiceInterface
-        ServiceInterface --> MockImpl
+        MockImpl --> ServiceInterface
     end
 
-    subgraph DataAccess["Data Access Layer"]
-        EF["Entity Framework 6\n(Code-First / DbContext)"]
-        DBInit["CatalogDBInitializer\n(seed data)"]
+    subgraph DataAccess["Data Access Layer - Entity Framework 6"]
+        EF["EntityModel\n(DbContext / Code-First)"]
+        DBInit["CatalogDBInitializer\n(seed data on startup)"]
         EF --> DBInit
     end
 
     subgraph Storage["Data Storage"]
-        SQL[("SQL Server\n(MSSQLLocalDB – eShopDatabase)")]
+        SQL[("SQL Server LocalDB\n(eShopDatabase)")]
     end
 
     subgraph Models["Domain Models"]
@@ -40,8 +40,8 @@ flowchart TD
         DiscountItem["DiscountItem"]
     end
 
-    WCFClient -- "HTTP / basicHttpBinding" --> WCFEndpoint
-    MockImpl --> EF
+    WCFClient -- "BasicHttpBinding over HTTP\nlocalhost:62314" --> WCFEndpoint
+    WCFEndpoint --> EF
     EF -- "System.Data.SqlClient" --> SQL
     EF --> Models
 ```
