@@ -1,18 +1,18 @@
 # Architecture Diagram
 
-This diagram shows the high-level architecture of the eShopLegacyNTier application — a legacy N-Tier catalog management system built on .NET Framework.
+This diagram shows the high-level architecture of the eShopLegacyNTier application  a legacy N-Tier catalog management system built on .NET Framework.
 
 ## Application Architecture
 
 ```mermaid
 flowchart TD
-    subgraph Presentation["Presentation Tier — eShopWinForms (.NET Framework 4.7)"]
+    subgraph Presentation["Presentation Tier  eShopWinForms (.NET Framework 4.7)"]
         UI["WinForms Desktop Client\n(CatalogView / ICatalogView)"]
         Controller["MVP Controller\n(CatalogController)"]
         WCFProxy["WCF Client Proxy\n(eShopServiceReference)\nSOAP / basicHttpBinding"]
     end
 
-    subgraph Service["Service Tier — eShopWCFService (.NET Framework 4.6.1)"]
+    subgraph Service["Service Tier  eShopWCFService (.NET Framework 4.6.1)"]
         WCFSvc["WCF Service\n(CatalogService.svc)\nIIS Express :62314"]
         ServiceContract["Service Contract\n(ICatalogService)\nCRUD + Stock + Discount"]
     end
