@@ -1,0 +1,11 @@
+{
+  "scenarioId": "dotnet-version-upgrade",
+  "operationId": "3b53777c-991b-40b4-815f-d52421683231",
+  "description": "Upgrade .NET projects to newer .NET versions, including guidance on current release status, support lifecycle (LTS/STS), and recommended upgrade targets.",
+  "startTime": "2026-05-18T02:45:35.872256Z",
+  "lastUpdateTime": "2026-05-18T02:45:46.2039113Z",
+  "properties": {
+    "UpgradeTargetFramework": "net8.0"
+  },
+  "folderPath": ""
+}
