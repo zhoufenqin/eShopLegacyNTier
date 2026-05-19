@@ -1,7 +1,7 @@
 # Assessment — 2026-05-19T07-11-28
 
 > Assessment-only run. No plan was generated or executed.
-> Settings: `ua-setting.json` → `UA_SETTINGS_FILE_PATHA`
+> Settings: `ua-setting.json` + `UA_SETTINGS_FILE_PATHA`
 
 ## Repository Baseline
 - Workspace: `D:\a\eShopLegacyNTier\eShopLegacyNTier`
@@ -43,7 +43,8 @@ Observed blockers:
 ## Assessment Metadata
 | Key                       | Value                                                                                                                                       |
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| `UA_SETTINGS_FILE_PATHA`  | `D:\a\eShopLegacyNTier\eShopLegacyNTier\.github\upgrades\legacy-dotnet-modernization\ua-setting.json`                                      |
+| `UA_SETTINGS_FILE_PATHA` file | `D:\a\eShopLegacyNTier\eShopLegacyNTier\.github\upgrades\legacy-dotnet-modernization\UA_SETTINGS_FILE_PATHA`                           |
+| `UA_SETTINGS_FILE_PATHA` value | `D:\a\eShopLegacyNTier\eShopLegacyNTier\.github\upgrades\legacy-dotnet-modernization\ua-setting.json`                                 |
 | Assessment folder         | `D:\a\eShopLegacyNTier\eShopLegacyNTier\.github\upgrades\legacy-dotnet-modernization\assessments\2026-05-19T07-11-28`                      |
 | Run mode                  | `assessment-only`                                                                                                                           |
 | Plan generated            | No                                                                                                                                          |

@@ -7,8 +7,9 @@
 
 ## Settings File
 - **`ua-setting.json`**: `D:\a\eShopLegacyNTier\eShopLegacyNTier\.github\upgrades\legacy-dotnet-modernization\ua-setting.json`
-- **`UA_SETTINGS_FILE_PATHA`**: Defined inside `ua-setting.json`; absolute path pointer to that settings file.
-  - Value: `D:\a\eShopLegacyNTier\eShopLegacyNTier\.github\upgrades\legacy-dotnet-modernization\ua-setting.json`
+- **`UA_SETTINGS_FILE_PATHA`**: `D:\a\eShopLegacyNTier\eShopLegacyNTier\.github\upgrades\legacy-dotnet-modernization\UA_SETTINGS_FILE_PATHA`
+  - File content: `D:\a\eShopLegacyNTier\eShopLegacyNTier\.github\upgrades\legacy-dotnet-modernization\ua-setting.json`
+  - `ua-setting.json` also retains `UA_SETTINGS_FILE_PATHA` as a mirrored key for machine-readable lookup.
 
 ## User Preferences
 ### Execution Style
@@ -31,5 +32,5 @@
 ## Decisions
 - Use scenario folder `.github/upgrades/legacy-dotnet-modernization`.
 - Keep current repository branch model and run modernization work on `copilot/add-assessment-setup`.
-- `ua-setting.json` is the canonical settings file; `UA_SETTINGS_FILE_PATHA` is the JSON key inside it that self-references the absolute path to `ua-setting.json`.
+- `ua-setting.json` is the canonical settings file; `UA_SETTINGS_FILE_PATHA` is also materialized as a standalone pointer file that contains the absolute path to `ua-setting.json`.
 - Assessment folder for this run: `assessments/2026-05-19T07-11-28/`.
