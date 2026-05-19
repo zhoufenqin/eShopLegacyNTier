@@ -1,0 +1,10 @@
+{
+  "UA_SETTINGS_FILE_PATHA": "D:\\a\\eShopLegacyNTier\\eShopLegacyNTier\\.github\\upgrades\\legacy-dotnet-modernization\\ua-setting.json",
+  "scenarioFolder": "D:\\a\\eShopLegacyNTier\\eShopLegacyNTier\\.github\\upgrades\\legacy-dotnet-modernization",
+  "assessmentOutputBasePath": "D:\\a\\eShopLegacyNTier\\eShopLegacyNTier\\.github\\upgrades\\legacy-dotnet-modernization\\assessments",
+  "currentAssessmentFolder": "D:\\a\\eShopLegacyNTier\\eShopLegacyNTier\\.github\\upgrades\\legacy-dotnet-modernization\\assessments\\2026-05-19T07-11-28",
+  "runMode": "assessment-only",
+  "generatePlan": false,
+  "flowMode": "automatic",
+  "notes": "UA_SETTINGS_FILE_PATHA is the canonical path pointer to this settings file. Assessment artifacts are placed under a timestamped subfolder of assessmentOutputBasePath. No plan generation is performed in assessment-only mode."
+}
