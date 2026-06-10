@@ -1,0 +1,17 @@
+analysisCoverage: issue-only
+java:
+  assessmentDomains:
+  - cloud-readiness
+  targetComputeServices:
+  - azure-appservice
+  - azure-aks
+  - azure-container-apps
+  targetOS:
+  - linux
+  - windows
+  minimumCveSeverity: high
+dotnet:
+  assessmentDomains:
+  - cloud-readiness
+  targetComputeServices:
+  - Any
